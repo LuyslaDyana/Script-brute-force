@@ -4,12 +4,10 @@
 
 echo "Digite o dominio:"
 read dominio;
-echo "Digite o nome do arquivo:"
-read arquivo;
 
 while read subdominio;
 do 
 	echo "Analisando" $subdominio.$dominio
 	host $subdominio.$dominio
 
-done < $arquivo.txt
+done < entrada.txt
