@@ -1,0 +1,4 @@
+painel
+admin
+administrador
+www
